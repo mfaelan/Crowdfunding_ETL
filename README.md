@@ -3,21 +3,22 @@
 # Meredith Faelan & Shannon Hoffman
 # README file
 
-# Files included
+# Files included:
+    Starter file - Resources/crowdfunding.xlsx
+    Starter file - Resources/contacts.xlsx
+    Data created - Resources/campaign.csv
+    Data created - Resources/category.csv
+    Data created - Resources/contacts.csv
+    Data created - Resources/subcategory.csv
+
 
 
 # Resources
     Class notes
     Instructor Tom Bogue
     TA Jordan Thompkins
-    Classmates (including brief conversations with Lorenzo, Elisabeth, 
-        Jim, and Chelsea). 
-    Xpert Learning Assistant/ChatGPT
-    Coronel, C., Morris, S., & Rob, P. (2012). Database systems: Design, 
-        implementation, and management (10th ed.). Cengage Learning.
-    SQLtutorial.org
-    pandas.pydata.org
-    Confirmed end-point data on Chrome
+    pandas.pydata.org/docs/reference
+    ChatGPT
 
 # Class Session 1
     Created Repo
