@@ -4,22 +4,32 @@
 # README file
 
 # Files included
-
+    CampaignSQL.png
+    crowdfunding_db.sql
+    ETL_Mini_Project_MFaelen_SHoffman.ipynb
+    Resources/campaign.csv
+    Resources/category.csv
+    Resources/contacts.csv
+    Resources/subcategory.csv
+    Resources/contacts.xlsx
+    Resources/crowdfunding.xlsx
 
 # Resources
     Class notes
-    Instructor Tom Bogue
-    TA Jordan Thompkins
-    Classmates (including brief conversations with Lorenzo, Elisabeth, 
-        Jim, and Chelsea). 
-    Xpert Learning Assistant/ChatGPT
-    Coronel, C., Morris, S., & Rob, P. (2012). Database systems: Design, 
-        implementation, and management (10th ed.). Cengage Learning.
-    SQLtutorial.org
-    pandas.pydata.org
-    Confirmed end-point data on Chrome
+    ChatGPT/Xpert Learning Assistant
+    Jordan Tompkins/Gregory Oladipo/Tom Bogue
+
 
 # Class Session 1
     Created Repo
-    Master Jupyter Notebook
-    Working Jupyter Notebook
+    Created Master Jupyter Notebook
+    Created Working Jupyter Notebooks
+
+# Class Session 2
+    Worked on creating the four DataFrames
+    Initiated the ERD and schema
+
+# Class Session 3
+    Finalized schema and created database
+    Finalized README
+    Submitted Project
