@@ -1,7 +1,7 @@
-DROP TABLE if EXISTS categories
-DROP TABLE if EXISTS subcategories
-DROP TABLE if EXISTS campaigns
-DROP TABLE if EXISTS contacts
+DROP TABLE if EXISTS campaigns;
+DROP TABLE if EXISTS categories;
+DROP TABLE if EXISTS subcategories;
+DROP TABLE if EXISTS contacts;
 	
 CREATE TABLE categories (
     category_id VARCHAR(10) PRIMARY KEY,

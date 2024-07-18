@@ -1,9 +1,11 @@
-# Project 2
-# Group 3
-# Meredith Faelan & Shannon Hoffman
+# Project 2: Crowdfunding ETL
+# Group 3: Meredith Faelan & Shannon Hoffman
 # README file
 
-# Files included
+Project Overview: 
+This project involves extracting, transforming, and loading data related to crowdfunding campaigns into a PostgreSQL database. The ETL process is implemented in Python using Pandas, and the resulting data is stored in CSV files and then loaded into the PostgreSQL database.
+
+Files included:
     CampaignSQL.png
     crowdfunding_db.sql
     ETL_Mini_Project_MFaelen_SHoffman.ipynb
@@ -19,20 +21,29 @@
     ChatGPT/Xpert Learning Assistant
     Jordan Tompkins/Gregory Oladipo/Tom Bogue
 
-
-# Class Session 1
+Project Timeline:
+ - Class Session 1
     Created Repo
     Created Master Jupyter Notebook
     Created Working Jupyter Notebooks
 
-# Class Session 2
+ - Class Session 2
     Worked on creating the four DataFrames
     Initiated the ERD and schema
 
-# Class Session 3
+ - Class Session 3
     Finalized schema and created database
     Finalized README
     Submitted Project
+
+ - Follow-ups:
+   Update README with instructions to create the database (July 7)
+   Update to get schema working (July 17)
+       Modifications include: 
+            adding ";" after all "DROP TABLE" code (Step 2)
+            shifting "DROP TABLE if EXISTS campaigns;" first to avoid key error (Step 2)
+            clarify order in which data is imported into tables in pgAdmin (Step 3.3)
+
 
 ### Step 1: 
 1. Open PGAdmin and create a database called `crowdfunding_db`
@@ -50,7 +61,7 @@
 ### Step 3: Import CSV Files into the Database
 1. Access the CSV files (`category.csv`, `subcategory.csv`, `campaign.csv`, `contacts.csv`).
 2. In PGAdmin, go to "Schemas" > "public" > "Tables" in the left sidebar.
-3. For each table (category, subcategory, campaign, contacts):
+3. Import the files in this order: category, subcategory, contacts, campaigns
    - Right-click on the table name and select "Import/Export Data...".
    - Select the "Import" option.
    - In the "Filename" field, choose the corresponding CSV file.
